@@ -3,13 +3,10 @@
 
 # Provider settings
 vlm:
-  provider: gemini
-  model: gemini-2.5-flash
+  provider: openai_local
 
 image:
-  provider: google_imagen
-  model: gemini-3-pro-image-preview
-  quality: auto
+  provider: openai_imagen
 
 # Pipeline settings
 pipeline:
